@@ -238,6 +238,198 @@
     height:350px ;
     width: 340px;
 }
+/*section exercice start*/
+.section-exercises{
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+    
+}
+.exer-des{
+    width: 600px;
+    margin-left: 115px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.exer-img-1{
+    display: flex;
+}
+.exer-line1-img1{
+    height: 220px;
+    width: 320px;
+    margin-left: 115px;
+}
+.exer-line1-img1 img{
+    height: 100%;
+    width: 100%;
+}
+.exer-line1-img2{
+    height: 220px;
+    width: 500px;
+}
+.exer-line1-img2 img{
+    height: 100%;
+    width: 100%;
+}
+.exer-line1-img3{
+    height: 220px;
+    width: 320px;
+}
+.exer-line1-img3 img{
+    height: 100%;
+    width: 100%;
+}
+.exer-line1-img4 {
+    height: 220px;
+    width: 450px;
+    margin-left: 115px;
+}
+.exer-line1-img4 img{
+    height: 100%;
+    width: 100%;
+}
+.exer-line1-img5{
+    height: 220px;
+    width: 330px;
+}
+.exer-line1-img5 img{
+    height: 100%;
+    width: 100%;
+}
+.exer-line1-img6{
+    height: 220px;
+    width: 360px;
+}
+.exer-line1-img6 img{
+    height: 100%;
+    width: 100%;
+}
+                       /*section exercice end*/
+                     /*bmi calculator start*/
+
+                    
+.bmi-section{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}                     
+.bmi-des{ 
+   margin-top: 100px; 
+   margin-bottom: 100px;
+   width: 700px;
+  
+}  
+                       /*bmi table start */
+.bmi-section2{
+    width: 100%;
+    background:  rgb(34, 34, 34);
+    display: flex;
+
+    gap: 200px;
+
+}
+.bmi-table{
+    height: 280px;
+    width: 400px;
+    margin-top: 100px;
+    background:  rgb(34, 34, 34);
+    margin-left: 150px;
+    
+
+} 
+.bmi-des p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-table tr, td ,h4{
+    background: rgb(34, 34, 34);
+} 
+.bmi-table h4,h1{
+    color: aliceblue;
+}
+.bmi-table tr, td{
+    border: 1px solid rgb(53, 48, 48);
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+} 
+.bmi-table caption{
+    font-size: 18px;
+     margin-top: 20px;
+     margin-bottom: 50px;
+}
+                                        /*bmi calculate form start */
+.bmi-calculate{
+    width: 100%;
+    height: 100%;
+    background:  rgb(34, 34, 34);
+}
+.bmi-calculate h1{
+    font-size: 38px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 45px;
+   
+}
+.bmi-calculate p{
+    font-size: 18px;
+    color:  rgba(255, 255, 255, 0.5);
+    margin-bottom: 35px;
+}
+form{
+    background-color: rgb(34, 34, 34) ;
+    margin-left: 150px;
+}
+#height, #Weight,#age,#sex{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    text-decoration: solid;
+    text-align: center;
+    margin-top: 10px;
+    color:  rgba(255, 255, 255, 0.6); 
+}
+#sex{
+    color:  rgba(255, 255, 255, 0.6); 
+    height: 42px;
+    width: 302px;
+}
+#factor{
+    border: none;
+    border-radius: 5px;
+    height:42px ;
+    width: 610px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    text-decoration: solid;
+    text-align: center;
+    margin-top: 10px;
+    color:  rgba(255, 255, 255, 0.6);
+}
+.cal-des{
+    background-color: rgb(34, 34, 34) ;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.calculate-btn{
+    border: none;
+    border-radius: 18px;
+    height: 50px;
+    width: 280px;
+    background: #E6533C;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+                       /*bmi calculate form end */
+                                     
+
 /* Responsive Design */
 
 @media screen and (max-width: 576px) {
@@ -286,7 +478,8 @@
         left: -10px; 
     }
     .nav-des button {
-        font-size: 12px;
+        font-size: 16px;
+        font-weight: 500;
         height: 45px;
         width: 150px;
     } 
@@ -298,4 +491,107 @@
         width: 350px;
     }   
                         /*responsive nav,nav-des and card End*/
+                        /*responsive blog section start*/
+    .blog-section{
+        width: 500px;
+        height: 100%;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 50px;
+        margin-left: 40px;
+        gap: 25px;
+    }  
+    .blog-contant {
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 10px;
+     } 
+     .btn-join-2{
+        font-size: 24px;
+        width: 350px;
+       
+    } 
+    .blog-img img{
+        border-radius: 15px;
+        height:300px ;
+        width: 400px;
+    }    
+    .blog-img {
+        
+        margin: 10px;
+       
+    } 
+    .blog-contant p{
+       margin-top: 10px;
+    }    
+                         /*responsive blog section End*/  
+                         /* responsive section exercice start*/
+    .exer-des{
+    width: 400px;
+    margin-left: 50px;
+    }
+    .exer-des h1{
+        font-size: 48px;   
+    }
+    .exer-des p{
+        font-size: 12px;
+    }
+    .exer-line1-img2{
+        width: 220px;    
+    }
+    .exer-line1-img2 img{
+       width: 100%;
+    }
+    .exer-line1-img4{
+        width: 230px;
+    }
+    .exer-line1-img3{
+        display: none;
+    }
+    .exer-line1-img6{
+        display: none;
+    }
+    .exer-img-1{
+        margin-left: -70px;
+    }
+                 /* responsive section exercice end*/
+                  /* responsive bmi section start*/
+.bmi-section2{ 
+        display: grid; 
+        gap: 30px;          
+     }
 }
+#height, #Weight,#age,#sex{
+    width: 150px; 
+}
+#factor{
+    width: 310px;
+}
+form{
+    margin-left: 110px;
+}
+.cal-des{
+    background-color: rgb(34, 34, 34) ;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.bmi-table{
+    margin-top: 40px;
+    background:  rgb(34, 34, 34);
+    margin-left: 90px;
+} 
+.bmi-calculate h1{
+    font-size: 28px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 15px; 
+}
+.bmi-des{ 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    width: 500px;
+ } 
+ .bmi-des h1{ 
+    font-size: 32px;
+ }   
+                           /* responsive bmi section end*/
